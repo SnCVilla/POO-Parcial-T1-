@@ -18,11 +18,14 @@ public class PiramideAsteriscos {
         int n;
         System.out.println("De cuantas filas sera la piramide");
         n=sc.nextInt();
-        for (int i = 0; i < n; i++) {
-            for (int j = n; j > i; j--) {
-                System.out.println(" ");
+        for (int i = 0; i < n; i++) {//COntrola las lines
+            for (int j = n; j < i; j--) {//COntrola los espacios
+                System.out.print(" ");
             }
-            System.out.print("*");
+            for (int j = 0; j <= i; j++) { //Asteriscos
+                System.out.print("*");
+            }
+            System.out.println(""); //Salto lineas
         }
     }
 }

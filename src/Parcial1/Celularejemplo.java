@@ -9,7 +9,7 @@ package Parcial1;
  *
  * @author chamo_000
  */
-public class Celular {
+public class Celularejemplo {
     //Atributos
     //sasjgdjsa Crear variables
     //modificador de acceso tipo nombre
@@ -29,7 +29,7 @@ public class Celular {
         private String pais;
         
         
- public Celular(){
+ public Celularejemplo(){
      System.out.println("");
  }   
  //ModaAcces tipo Retorno Nombre(tipoDato NombreParam)
