@@ -15,7 +15,7 @@ public class PiramideAsteriscos2 {
         System.out.println("Ingresa el numero de filas que deseas imprimir");
         n=sc.nextInt();
         for (int i = 0; i < n; i++) { //Controlalas lineas
-            for (int k = n-2; k >=i ; k--) { // Controla espacios
+            for (int s = n-2; s >=i ; s--) { // Controla espacios
                 System.out.print(" ");
             }
             for (int j = 0; j <= i; j++) { //Asteriscos
