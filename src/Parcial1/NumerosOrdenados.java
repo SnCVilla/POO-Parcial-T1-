@@ -8,9 +8,10 @@ import java.util.Scanner;
 public class NumerosOrdenados {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = 0;
+        
         System.out.println("De que tamaño quiere su arreglo: ");
-        int x = Integer.parseInt(sc.nextLine());
+        int x;
+        x = Integer.parseInt(sc.nextLine());
         int[] numeros = new int [x];
         
         for (int i = 0; i < x; i++) {
