@@ -75,7 +75,7 @@ public class Main {
                     break;
 
                 case 3:
-                    System.out.println("--------------Buscar Cliente--------------");
+                    System.out.println("---------Buscar Cliente--------------");
                     System.out.println("Deseas buscar por codigo o por nombre? ");
                     while(opc3!=0){
                         System.out.println("----------Menu Secundario--------------");
@@ -124,15 +124,13 @@ public class Main {
                             case 0:
                         System.out.println("---------------------------------------------");
                                 System.out.println("Has vuelto al menu principal"); 
-                        System.out.println("------------------------------------");
                                 break;
                         }
                     }
 
-                    System.out.println("---------------------------------------------");
                     break;
                 case 0:
-                    System.out.println("---------------------------------------------");
+                    System.out.println("------------------------------------");
                     System.out.println("Gracias por usar el programa creado por este gran crack, que digo crack, Maistrooooo");
                     System.out.println("---------------------------------------------");
                     break;

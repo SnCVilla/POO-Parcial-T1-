@@ -1,10 +1,12 @@
 
+package Practicas;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Practicaa5 {
-      private static int pos;
+        private static int pos;
     public static void main(String[] args) {
         BufferedReader bf =new BufferedReader(new InputStreamReader(System.in));
         Scanner sv = new Scanner (System.in);
