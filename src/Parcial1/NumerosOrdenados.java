@@ -10,8 +10,7 @@ public class NumerosOrdenados {
         Scanner sc = new Scanner(System.in);
         
         System.out.println("De que tamaño quiere su arreglo: ");
-        int x;
-        x = Integer.parseInt(sc.nextLine());
+        int x = Integer.parseInt(sc.nextLine());
         int[] numeros = new int [x];
         
         for (int i = 0; i < x; i++) {
@@ -30,7 +29,8 @@ public class NumerosOrdenados {
             
         }
         System.out.println(" El orden de los numeros es: " + Arrays.toString(numeros) );
-                            
+                            //Profe esto me aparecio en el foquito
+                            //Y no supe como hacer para imprimirlos de menor a mayor
                 }
             }
     
